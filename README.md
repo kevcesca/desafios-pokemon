@@ -11,9 +11,14 @@ Maquete un sitio web para agregar todos los ejercicios y así facilitar su acces
 
 > 06/02/2023 19:41
 
+### ¿Qué agregué en el commit "Entrega Artista"?
+
+Mejore la medalla volcán para aplicar los estilos de CSS vistos en clase
+
+> 06/02/2023 13:50
 
 
-Enlace de la pagina en un hosting: 
+Enlace de la pagina en un hosting: https://pokedesafios.netlify.app/index.html
 
 ##### Este repositorio está siendo realizado por Kevin Cerón Escalante
 

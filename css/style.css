@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 35px;
     color: #fcfcfc;
 }
 
@@ -71,6 +71,7 @@ li{
     padding-left: 1%;
     padding-right: 1%;
     position: fixed;
+    z-index: 100;
 }
 .navbar-nav:hover {
     background-color: #4357DB;
@@ -175,6 +176,27 @@ li{
 }
 .my-8{
     margin-right: 5%
+}
+
+            /* Especificos Volcan */
+.volcan{
+    background-color: #121738;
+    padding-bottom: 5%;
+}
+.volcan p{
+    text-align: center;
+    font-size: 20px;
+}
+.col-lg-10 h2{
+    text-align: center;
+}
+.carousel{
+    width: 50%;
+    height: auto;
+
+}
+.favoritas ul li iframe{
+    width: 400px;
 }
 
             /* Especificos footer */
