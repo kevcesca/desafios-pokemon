@@ -29,7 +29,10 @@ h2 {
 }
 
 h3 {
-    font-size: 120%;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
 }
 
 ul li {
@@ -53,6 +56,13 @@ main{
 }
 span{
     text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+li{
+    color: white;
 }
 
 .navbar-nav {
@@ -137,7 +147,37 @@ span{
     border-radius: 5%;
 }
 
-/* Especificos footer */
+            /* Especificos Arcoiris */
+.arcoiris ul li {
+    list-style-type: disc;
+}
+
+            /* Especificos Arcoiris */
+.alma li{
+    list-style-type:lower-latin;
+}
+            /* Especificos Tierra */
+.tierra{
+    background: linear-gradient(to top, #1C255C, #DB5A65);
+    border-color: #39DB5F;
+    border-radius: 5%;
+    border-style: double;
+    border-width: 5px;
+    margin: 1%;
+    width: 600px;
+    height: 600px;
+}
+.tierra ul li{
+    text-align: center;
+}
+.tierra h2{
+    text-align: center;
+}
+.my-8{
+    margin-right: 5%
+}
+
+            /* Especificos footer */
 footer {
     background-color: #1C255C;
     padding-top: 2%;
