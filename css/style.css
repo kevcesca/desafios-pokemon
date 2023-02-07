@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #303F9C fixed no-repeat 50% 50%;
+    background-image: url("../assets/img/fondo3.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #FFF;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 40px;
+    color: #fcfcfc;
+}
+
+h3 {
+    font-size: 120%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+span {
+    color: #FFF;
+}
+
+header {
+    background-size: 100%;
+    font-size: 20px;
+}
+main{
+    min-height: 100vh;
+}
+span{
+    text-align: center;
+}
+
+.navbar-nav {
+    background-color: #1C255C;
+    opacity: 90%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: fixed;
+}
+.navbar-nav:hover {
+    background-color: #4357DB;
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+    transition-duration: 500ms;
+}
+.mx-8{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navbar-toggler {
+    background-color: #1C255C;
+    opacity: 90%;
+}
+
+.espacio-2 {
+    margin-bottom: 2%;
+}
+.medallas{
+    width: 200px;
+    height: 200px;
+    margin: 20%;
+}
+.tam-medallas{
+    width: 200px;
+    height: 200px;
+}
+.tam-medallas:hover{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    transition-duration: 500ms;
+}
+.nav-link:hover{
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    transition-duration: 500ms;
+}
+.formato-texto-general {
+    margin-left: 2%;
+    margin-right: 5%;
+    font-size: 25px;
+    color: #FFF;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.margin-0 {
+    margin: 0px;
+}
+
+.full-center {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.redondear {
+    border-radius: 5%;
+}
+
+/* Especificos footer */
+footer {
+    background-color: #1C255C;
+    padding-top: 2%;
+    padding-bottom: 50px;
+}
+.logos{
+    width: 20%;
+    height: auto;
+}
