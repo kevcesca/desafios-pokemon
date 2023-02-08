@@ -17,6 +17,12 @@ Mejore la medalla volcán para aplicar los estilos de CSS vistos en clase
 
 > 06/02/2023 13:50
 
+### ¿Qué agregué en el commit "Entrega Final"?
+
+Termine todos los ejercicios para las medallas
+
+> 08/02/2023 01:35
+
 
 Enlace de la pagina en un hosting: https://pokedesafios.netlify.app/index.html
 

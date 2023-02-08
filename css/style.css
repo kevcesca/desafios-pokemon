@@ -153,10 +153,37 @@ li{
     list-style-type: disc;
 }
 
-            /* Especificos Arcoiris */
+            /* Especificos Alma */
 .alma li{
     list-style-type:lower-latin;
 }
+
+            /* Especificos Cascada */
+.cascada-fondo{
+    background-color: antiquewhite;
+    padding: 5%;
+    border-radius: 10px;
+}
+.cascada-fondo:hover{
+    -webkit-transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -ms-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform:scale(1.05);
+    transition-duration: 500ms;
+}
+.cascada-texto{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+}
+.cascada-titulo{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
             /* Especificos Tierra */
 .tierra{
     background: linear-gradient(to top, #1C255C, #DB5A65);
@@ -203,7 +230,6 @@ li{
 footer {
     background-color: #1C255C;
     padding-top: 2%;
-    padding-bottom: 50px;
 }
 .logos{
     width: 20%;
